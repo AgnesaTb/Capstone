@@ -1,3 +1,6 @@
+html {
+    font-size: 16px;
+}
 header {
     display: flex;
     justify-content: space-between;
@@ -26,5 +29,39 @@ header p {
 .header-content {
     display: flex;
     align-items: center;
-    align-content: center;
+}
+banner {
+    background-color: #E3E3E3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+banner img {
+    width: 60%;
+    height: auto;
+    margin: 32px 24px;
+    
+}
+.banner-text {
+    text-align: center;
+    color: #968787;
+    margin-top: 80px;
+    font-size: 1.875rem;
+    overflow: hidden;
+    margin-right: 1.5rem;
+}
+.banner-text button {
+    background-color: #604747;
+    color: white;
+    width: 40%;
+    border: none;
+    margin-top: 0.5rem;
+    margin-bottom: 0.5rem;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.banner-text button:hover {
+    background-color: #968787;
+    font-size: 1.10rem;
 }
