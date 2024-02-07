@@ -146,3 +146,47 @@ banner img {
 .guest:hover {
     background-color: white;
 }
+
+.start {
+    background-color: #E3E3E3;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+#courses-section {
+    padding: 0.2rem 0.2rem;
+    background-color: rgb(245, 245, 245);
+  }
+  #courses-section h2{
+    text-align: center;
+    color: #604747;
+    font-size: 2rem;
+  }
+  .courses-row {
+    display: flex;
+  }
+  
+  .course {
+    flex-basis: 33%;
+    margin: 0.25rem;
+    background-color: white;
+    transition: background-color 0.5s;
+  }
+  
+  .course .text-content {
+    width: 100%;
+    padding: 1rem 1rem 1.5rem 1rem;
+    color: #604747;
+  }
+  
+  .course h3,
+  .course h4 {
+    padding-bottom: .5rem;
+
+  }
+  a {
+    text-decoration: none;
+  }
+.course:hover{
+    background-color: #E3E3E3;
+}
